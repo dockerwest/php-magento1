@@ -1,4 +1,4 @@
-FROM dockerwest/php:7.0
+FROM dockerwest/php:8.0
 
 COPY ./scripts /
 RUN /install.sh
